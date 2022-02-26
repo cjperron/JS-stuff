@@ -1,0 +1,47 @@
+#botonAcumuladores{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#circulo{
+    width: 100px; 
+    height: 100px; 
+    background-color: rgb(201, 190, 129); 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+#formas{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+#titulo{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -50px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(189, 158, 82);
+}
+#cambiarColorDeFondo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#precioAcumuladores{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+#progresoAcumuladores{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 10%;
+    height: 20px;
+}
