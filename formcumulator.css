@@ -17,7 +17,7 @@
 #formas{
     position: absolute;
     top: 0px;
-    left: 50%;
+    left: 46.5%;
 }
 #titulo{
     position: absolute;
@@ -38,10 +38,21 @@
     top: 0px;
     left: 120px;
 }
-#progresoAcumuladores{
+.contenedorProgreso1{
     position: absolute;
     top: 20px;
     left: 0px;
-    width: 10%;
+    width: 115px; 
     height: 20px;
+}
+.contenedorProgreso1 .progresoAcumulador{
+    position: absolute;
+    height: 100%;
+    background-color: green;
+    animation: animacionProgreso 2s infinite;
+}
+
+@keyframes animacionProgreso{
+    0% {width: 0%;}
+    100% {width: 100%;}
 }

@@ -10,11 +10,14 @@
     <body>
       <button id="botonAcumuladores" onclick="compraAcumuladores()">Acumuladores: 0</button>
       <div id="circulo" onclick="accionCirculo()"></div>
-      <div id="formas">Formas ⬛: 0</div>
+      <div id="formas">Formas ⚫: 0.00</div>
       <div id="titulo">FormCumulator</div>
-      <button  id="cambiarColorDeFondo" onclick="cambiarColorDeFondo()">Cambiar color de fondo</button>
-      <div id="precioAcumuladores">Precio: 25 ⬛</div>
-      <progress id="progresoAcumuladores" onchange="progresoAcumuladores()"></progress>
+      <button  id="cambiarColorDeFondo" onclick="colorFondo()">Cambiar color de fondo</button>
+      <div id="precioAcumuladores">Precio: 25.00 ⚫</div>
+      <!-- <progress id="progresoAcumuladores" onchange="progresoAcumuladores()"></progress> -->
+      <div class="contenedorProgreso1">
+        <div class="progresoAcumulador"></div>
+      </div>
 
     </body>
     <script src="formcumulator.js"></script>
