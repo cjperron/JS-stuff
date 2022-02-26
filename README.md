@@ -1,3 +1,7 @@
-# Repositorio de lo que pueda llegar a hacer con Javascript
+# Paginas con exceso de JS
 
-Ya se me va a ocurrir una descripción mas apta.
+## La pagina contiene
+
+### _FormCumulator_
+
+Es un juego IDLE que la premisa principal es acumular formas, siendo la forma inicial un circulo.
