@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="formcumulator.css">
     </head>
     <body>
-      <button id="botonAcumuladores" onclick="compraAcumuladores()">Acumuladores: 0</button>
+      <button id="botonAcumuladores" onclick="compraAcumuladores()">Comprar Acumuladores</button>
       <div id="circulo" onclick="accionCirculo()"></div>
       <div id="formas">Formas ⚫: 0.00</div>
       <div id="titulo">FormCumulator</div>
@@ -16,10 +16,14 @@
       <div id="precioAcumuladores">Precio: 25.00 ⚫</div>
       <!-- <progress id="progresoAcumuladores" onchange="progresoAcumuladores()"></progress> -->
       <div class="contenedorProgreso1" id="contenedorAcumulador1">
-        <div class="progresoAcumulador" id="progresoAcumumlador"></div>
+        <div class="progresoAcumulador" id="progresoAcumulador">0</div>
       </div>
       <button id="support"><a href="https://github.com/cjperron/JS-stuff"> Ayudar a desarrollar!</a></button>
-
+      <button id="botonSpawners" onclick="compraSpawners()">Comprar Spawner</button>
+      <div id="precioSpawners">Precio: 100.00 ⚫</div>
+      <div class="contenedorProgreso2" id="contenedorProgreso2">
+        <div class="progresoSpawner" id="progresoSpawner">0</div>
+      </div>
     </body>
     <script src="formcumulator.js"></script>
 </html>

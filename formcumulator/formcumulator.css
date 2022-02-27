@@ -3,6 +3,11 @@
     top: 0px;
     left: 0px;
 }
+#botonSpawners{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
 #circulo{
     width: 100px; 
     height: 100px; 
@@ -41,16 +46,34 @@
 #precioAcumuladores{
     position: absolute;
     top: 0px;
-    left: 120px;
+    left: 160px;
+}
+#precioSpawners{
+    position: absolute;
+    top: 40px;
+    left: 130px;
 }
 .contenedorProgreso1{
     position: absolute;
     top: 20px;
     left: 0px;
-    width: 115px; 
+    width: 153.03px; 
+    height: 20px;
+}
+.contenedorProgreso2{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 124.17px; 
     height: 20px;
 }
 .contenedorProgreso1 .progresoAcumulador{
+    position: absolute;
+    height: 100%;
+    background-color: green;
+    animation: animacionProgreso 3s infinite;
+}
+.contenedorProgreso2 .progresoSpawner{
     position: absolute;
     height: 100%;
     background-color: green;
