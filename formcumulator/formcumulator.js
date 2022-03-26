@@ -1,13 +1,24 @@
 document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+
+let valores = {
+    formas: 0.0,
+    acumuladores: 0,
+    spawners: 0, 
+    inflacion: 1.0, 
+    velocidad: 0, 
+    precioBaseAcumuladores: 25.00,
+    precioBaseSpawners: 200.00
+}
+
 let formas = 0.00;
 let acumuladores = 0;
 let spawners = 0;
 let inflacion = 1.0;
 let velocidad = 0;
 let precioBaseAcumuladores = 25.00;
-let precioAcumuladoresFinal = precioBaseAcumuladores * inflacion;
-let precioBaseSpawners = 100.00;
-let precioSpawnersFinal = precioBaseSpawners * inflacion;
+let precioAcumuladoresFinal = valores.precioBaseAcumuladores * valores.inflacion;
+let precioBaseSpawners = 200.00;
+let precioSpawnersFinal = valores.precioBaseSpawners * valores.inflacion;
 // let //velocidadDeAnimacion = document.getElementsByClassName("progresoAcumulador").style.anidurationmation-
 
 let circulo = document.getElementById("circulo");
@@ -19,6 +30,8 @@ let cambiarColorDeFondo = document.getElementById("cambiarColorDeFondo");
 let progresoAcumuladores = document.getElementById("progresoAcumuladores");
 let precioAcumuladores = document.getElementById("precioAcumuladores");
 let precioSpawners = document.getElementById("precioSpawners");
+
+
 
 function accionCirculo() {
     circulo.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
